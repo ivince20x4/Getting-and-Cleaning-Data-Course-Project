@@ -1,6 +1,6 @@
 require(knitr)
 require(markdown)
-# setwd("~/GitHub repositories/GettingAndCleaningData/Project")
-setwd("~/Repositories/Coursera/GettingAndCleaningData/Project")
+# setwd("~/GitHub repositories/Getting-and-Cleaning-Data-Course-Project")
+setwd("~/Repositories/Coursera/Getting-and-Cleaning-Data-Course-Project")
 knit("run_analysis.Rmd", encoding="ISO8859-1")
 markdownToHTML("run_analysis.md", "run_analysis.html")
